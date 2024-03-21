@@ -1,0 +1,7 @@
+spring.application.name=livraria
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:postgresql://localhost:5432/cursodb
+spring.datasource.username=postgres
+spring.datasource.password=iwt123

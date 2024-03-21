@@ -1,0 +1,14 @@
+package com.projeto.livraria.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.projeto.livraria.service.LivroService;
+
+@Controller
+public class AppController {
+
+	@Autowired
+	LivroService servico;
+	
+}

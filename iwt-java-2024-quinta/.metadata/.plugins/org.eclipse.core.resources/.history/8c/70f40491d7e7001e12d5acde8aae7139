@@ -1,0 +1,5 @@
+package com.projeto.livraria.model;
+
+public class Livro {
+
+}

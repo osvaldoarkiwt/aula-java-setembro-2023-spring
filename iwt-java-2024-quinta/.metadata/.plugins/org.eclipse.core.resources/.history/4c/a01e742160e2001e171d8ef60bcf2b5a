@@ -1,0 +1,19 @@
+package com.projeto.app.model;
+
+public class TestePessoa {
+
+	public static void main(String[] args) {
+		
+		Pessoa p01 = new Pessoa(1L, "Laura", "Beira Mar");
+		
+		System.out.println(p01.toString());
+		
+		record PessoaTeste(Long id, String nome, Integer idade ) {};
+		
+		PessoaTeste t = new PessoaTeste(10L,"Juarez",65);
+		
+		System.out.println(t.);
+			
+		
+	}
+}
